@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "run": "deno run --allow-read=.env,.env.defaults,.env.example --allow-env --allow-net main.ts",
+    "compile": "deno compile --allow-read=.env,.env.defaults,.env.example --allow-env --allow-net --output gateway_logging main.ts"
+  }
+}
